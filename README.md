@@ -17,7 +17,7 @@ Format files, example:
 
     - fdisk-info.txt      partitions info (fdisk -l /dev/sda > fdisk-info.txt)
 
-    - *-mbr.bin           MBR + partittion table
+    - *-mbr.bin           MBR + partition table
 
     - *-mbr.bin.md5       MBR md5sum
 
