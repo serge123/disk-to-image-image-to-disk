@@ -1,5 +1,13 @@
 # Disk backup/restore bash scripts
 
+Scripts:
+
+    - backup-disk-testing.sh        backup disk
+
+    - installing-disk-testing.sh    restore disk
+
+
+
 Format files, example:
 
     - fdisk-info.txt      partitions info (fdisk -l /dev/sda > fdisk-info.txt)
