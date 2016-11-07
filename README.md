@@ -4,11 +4,13 @@ Scripts:
 
     - backup-disk-testing.sh        backup disk
     
-    Usage: sh backup-os.sh [DISK] [FILENAME]
-    Example: sh backup-os.sh sda xpe-backup
+        Usage: sh backup-os.sh [DISK] [FILENAME]
+        Example: sh backup-os.sh sda xpe-backup
 
     - installing-disk-testing.sh    restore disk
 
+        Usage: sh installing-os.sh [DISK]
+        Example: sh installing-os.sh sda
 
 
 Format files, example:
