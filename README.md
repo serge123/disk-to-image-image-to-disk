@@ -1,6 +1,8 @@
 # Disk backup/restore bash scripts
 
-    Disk backup/restore scripts based on dd utility. It is recommended to shrink partitions before to start backup. It can be used any Linux live CD to use scripts.
+    Disk backup/restore scripts based on dd utility. 
+    It is recommended to shrink partitions before to start backup. 
+    It can be used any Linux live CD to use scripts.
 
 Scripts:
 
