@@ -2,7 +2,10 @@
 
     Disk backup/restore scripts based on dd utility. 
     It is recommended to shrink partitions before to start backup. 
+    Shrinking disk partitions might significantly reduces time to backup disk. 
     It can be used any Linux live CD/USB storage to use scripts.
+    RAW output files like *-sda1.raw and *-sda2.raw (see example below, it needs to unpack) 
+    can be mounted with Linux mount utility.
 
 Scripts:
 
