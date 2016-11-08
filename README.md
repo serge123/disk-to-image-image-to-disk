@@ -19,6 +19,7 @@ Scripts:
         Usage: sh installing-disk.sh [DISK]
         Example: sh installing-disk.sh sda
 
+    installing-disk.sh must be located/run from the same directory as files are described below.
 
 Files are created with backup-disk-testing.sh, example:
 
