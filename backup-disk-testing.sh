@@ -39,8 +39,8 @@ RAWGZMD=".raw.gz.md5"
 if !(test -b $DISK) ; then 
 	echo "need valid disk parameter: sda, sdb or sdc"
 	echo  
-	echo "Usage: sh backup-os.sh [DISK] [FILENAME]"
-	echo "Example: sh backup-os.sh sda xpe-backup"
+	echo "Usage: sh backup-disk.sh [DISK] [FILENAME]"
+	echo "Example: sh backup-disk.sh sda xpe-backup"
 	exit 0
 fi
 
@@ -48,8 +48,8 @@ fi
 if !(test $2) ; then 
 	echo "need valid filename parameter."  
 	echo  
-	echo "Usage: sh backup-os.sh [DISK] [FILENAME]"
-	echo "Example: sh backup-os.sh sda xpe-backup"
+	echo "Usage: sh backup-disk.sh [DISK] [FILENAME]"
+	echo "Example: sh backup-disk.sh sda xpe-backup"
 	exit 0
 fi
 
