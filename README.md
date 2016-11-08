@@ -4,8 +4,12 @@
     It is recommended to shrink partitions before to start backup. 
     Shrinking disk partitions might significantly reduce time to backup disk. 
     It can be used any Linux live CD/USB storage to run scripts.
-    RAW output files like *-sda1.raw and *-sda2.raw (see example below, it needs to unpack) 
-    can be mounted with Linux mount utility.
+    RAW output files like *-sda1.raw and *-sda2.raw can be mounted with Linux mount utility.
+    It needs to unpack files with: 
+    
+                gunzip *-sda1.raw.gz 
+                gunzip *-sda2.raw.gz 
+                                        before mounting, see below example for details.
 
 Scripts:
 
