@@ -37,8 +37,8 @@ RAWGZMD=".raw.gz.md5"
 if !(test -b $DISK) ; then 
 	echo "need valid disk parameter: sda, sdb or sdc"  
 	echo  
-	echo "Usage: sh installing-os.sh [DISK]"
-	echo "Example: sh installing-os.sh sda" 
+	echo "Usage: sh installing-disk.sh [DISK]"
+	echo "Example: sh installing-disk.sh sda" 
 	exit 0
 fi
 
