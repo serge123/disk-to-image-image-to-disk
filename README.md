@@ -22,10 +22,10 @@ Files are created with backup-disk-testing.sh, example:
     - fdisk-info.txt      partitions info (fdisk -l /dev/sda > fdisk-info.txt)
     - *-mbr.bin           MBR + partition table
     - *-mbr.bin.md5       *-mbr.bin file md5sum
-    - *-sda1.raw.gz        1-st partition
-    - *-sda1.raw.gz.md5    *-sda1.raw.gz file md5sum
-    - *-sda2.raw.gz        2-nd partition
-    - *-sda2.raw.gz.md5    *-sda2.raw.gz file md5sum
+    - *-sda1.raw.gz       1-st partition
+    - *-sda1.raw.gz.md5   *-sda1.raw.gz file md5sum
+    - *-sda2.raw.gz       2-nd partition
+    - *-sda2.raw.gz.md5   *-sda2.raw.gz file md5sum
     - and so on
     
     * is [FILENAME], see above how to use backup-disk-testing.sh for details 
