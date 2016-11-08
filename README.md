@@ -31,4 +31,4 @@ Files are created with backup-disk-testing.sh, example:
     * is [FILENAME], see above how to use backup-disk-testing.sh for details 
 
 
-Logical disks such as sda5, sda6 ... will be not stored separate. They will be included to extended partition  
+Logical disks such as sda5, sda6 ... will be not stored separate with backup-disk-testing.sh. They will be included to extended partition (it is usually sda2) 
