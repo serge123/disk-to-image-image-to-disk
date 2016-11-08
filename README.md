@@ -6,15 +6,15 @@
 
 Scripts:
 
-    - backup-disk-testing.sh        backup disk
+    - backup-disk.sh        backup disk
     
-        Usage: sh backup-os.sh [DISK] [FILENAME]
-        Example: sh backup-os.sh sda xpe-backup
+        Usage: sh backup-disk.sh [DISK] [FILENAME]
+        Example: sh backup-disk.sh sda xpe-backup
 
-    - installing-disk-testing.sh    restore disk
+    - installing-disk.sh    restore disk
 
-        Usage: sh installing-os.sh [DISK]
-        Example: sh installing-os.sh sda
+        Usage: sh installing-disk.sh [DISK]
+        Example: sh installing-disk.sh sda
 
 
 Files are created with backup-disk-testing.sh, example:
@@ -28,7 +28,7 @@ Files are created with backup-disk-testing.sh, example:
     - *-sda2.raw.gz.md5   *-sda2.raw.gz file md5sum
     - and so on
     
-    * is [FILENAME], see above how to use backup-disk-testing.sh for details 
+    * is [FILENAME], see above how to use backup-disk.sh for details 
 
 
-Logical disks such as sda5, sda6 ... will be not stored separate with backup-disk-testing.sh. They will be included to extended partition (it is usually sda2) 
+Logical disks such as sda5, sda6 ... will be not stored separate with backup-disk.sh. They will be included to extended partition (it is usually sda2) 
