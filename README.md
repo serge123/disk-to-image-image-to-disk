@@ -2,7 +2,7 @@
 
     Disk backup/restore scripts based on dd utility. 
     It is recommended to shrink partitions before to start backup. 
-    It can be used any Linux live CD to use scripts.
+    It can be used any Linux live CD/USB storage to use scripts.
 
 Scripts:
 
